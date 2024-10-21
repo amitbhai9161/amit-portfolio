@@ -18,7 +18,7 @@
     <!-- navbar start -->
     <div class="navbar" id="nav">
       <div class="group1">
-        <i class="fa-solid fa-user"></i>
+        <i id="magnet-target" class="fa-solid fa-user"></i>
         <h4 class="magnet-target">Amit Kumar</h4>
       </div>
       <div class="group2">
@@ -37,10 +37,10 @@
 
     <div class="hero">
       <div class="hero-left">
-        <h4 class="text-target">Hello i'm <b>Amit kumar</b></h4>
-        <h4><b>Frontend</b><span class="dev">Developer</span></h4>
-        <h4>Based in <b>India</b></h4>
-        <p>
+        <h4 class="text-target" id="magnet-target" >Hello I'm <b>Amit Kumar</b></h4>
+        <h4 class="magnet-target"><b>Frontend</b><span class="dev">Developer</span></h4>
+        <h4 class="magnet-target">Based in <b>India</b></h4>
+        <p class="magnet-target">
           Hello everyone Jay Shree Ram i'm from basti in uttar pradesh
           consectetur debitis tempore tenetur veniam illum voluptatem vitae vel
           a, illo repellat, minus aliquam. Libero odio molestiae necessitatibus
@@ -74,7 +74,7 @@
 
     <div class="my-skill" id="skills">
       <div class="heading">
-        <h2>My <span>Skills</span></h2>
+        <h2 class="magnet-target">My <span>Skills</span></h2>
       </div>
 
       <div class="card-wrapper">
@@ -128,11 +128,11 @@
 
     <div class="my-exprience" id="exprience">
       <div class="heading">
-        <h2>My <span>Exprience</span></h2>
+        <h2 class="magnet-target">My <span>Exprience</span></h2>
       </div>
 
       <div class="exp-card-wrapper">
-        <div class="exp-card">
+        <div id="magnet-target" class="exp-card">
           <div>
             <h2>
               <span  id="magnet-target"><i class="fa-brands fa-google"></i></span> Lead Software
@@ -150,10 +150,10 @@
           </p>
         </div>
 
-        <div class="exp-card">
+        <div id="magnet-target" class="exp-card">
           <div>
             <h2>
-              <span><i class="fa-brands fa-youtube"></i></span> Lead Software
+              <span id="magnet-target"><i class="fa-brands fa-youtube"></i></span> Lead Software
               Engineer at Google
             </h2>
             <h2>Nov 2024 - Present</h2>
@@ -168,10 +168,10 @@
           </p>
         </div>
 
-        <div class="exp-card">
+        <div id="magnet-target" class="exp-card">
           <div>
             <h2>
-              <span><i class="fa-brands fa-linkedin"></i></span> Lead Software
+              <span id="magnet-target"><i class="fa-brands fa-linkedin"></i></span> Lead Software
               Engineer at Google
             </h2>
             <h2>Nov 2024 - Present</h2>
@@ -194,11 +194,11 @@
 
     <div class="hero about" id="about">
       <div class="hero-left about-left mask-target">
-        <img src="c:\Users\vivek\Downloads\WhatsApp Image 2024-07-08 at 01.24.29.jpeg" alt="" />
+        <img src="1716046561142.jpg" alt="" />
       </div>
       <div class="hero-right about-right">
         <div class="heading">
-          <h2>About <span>Me</span></h2>
+          <h2 class="magnet-target">About <span>Me</span></h2>
         </div>
         <p>
       Hello everyone Jay Shree Ram my name is Amit kumar im from basti in uttar pradesh
@@ -224,11 +224,11 @@
 
     <div class="my-project" id="projects">
       <div class="heading">
-        <h2>My <span>Projects</span></h2>
+        <h2 class="magnet-target">My <span>Projects</span></h2>
       </div>
       <div class="project-wrapper">
         <div class="project">
-          <div class="project-img">
+          <div id="magnet-target" class="project-img">
             <img
               src="Apple-iPhone-X-720.avif"
               alt=""
@@ -258,7 +258,7 @@
             </p>
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </div>
-          <div class="project-img">
+          <div id="magnet-target" class="project-img">
             <img
               src="spotify-Header.jpg"
               alt=""
@@ -266,7 +266,7 @@
           </div>
         </div>
         <div class="project">
-          <div class="project-img">
+          <div id="magnet-target" class="project-img">
             <img
               src="dribble.webp"
               alt=""
@@ -293,25 +293,27 @@
 
     <div class="contact-us" id="contact">
       <div class="heading">
-        <h2>Contact <span>Us</span></h2>
+        <h2 class="magnet-target">Contact <span>Us</span></h2>
       </div>
       <div class="contact-wrapper">
         <div class="contact-form">
-          <form action="">
-          <input type="text" name="" id="" placeholder="Your name">
-          <input type="text" name="" id="" placeholder="Email">
-          <input type="text" name="" id="" placeholder="Your website (If exists)">
-          <textarea name="" id="" placeholder="How can i help?"></textarea>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0ca7ad88-097e-4c6e-9464-c8239fc63549">
+          <input type="text" name="name" id="" placeholder="Your name" required>
+          <input type="email" name="email" id="" placeholder="Email" required>
+         <input type="number" name="phone" id="" placeholder="Number(+91)" required>
+          <textarea name="massage" id="" placeholder="How can i help?" required></textarea>
           <div class="social">
-            <button>Get in Touch</button>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button class="magnet-target"> Get in Touch </button>
             <div class="s-icon">
-              <a href="https://www.facebook.com/profile.php?id=100028346772632"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100028346772632"><i class="fa-brands fa-facebook" id="magnet-target"></i></a>
             </div>
             <div class="s-icon">
-              <a href="https://www.instagram.com/er_amit_309/"> <i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com/er_amit_309/"> <i class="fa-brands fa-instagram" id="magnet-target"></i></a>
             </div>
             <div class="s-icon">
-              <a href="https://www.linkedin.com/in/amit-kumar-2a7559321/"> <i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/amit-kumar-2a7559321/"> <i class="fa-brands fa-linkedin" id="magnet-target"></i></a>
             </div>
             <div class="s-icon">
             <a href="https://github.com/amitbhai9161" >   <i class="fa-brands fa-github"  id="magnet-target"></i></a>
@@ -320,7 +322,7 @@
           </form>
         </div>
         <div class="contact-text">
-          <div class="contact-img ">
+          <div id="magnet-target" class="contact-img ">
             <img src="c:\Users\vivek\Downloads\Blue Modern Contact Us Instagram Post.png" alt="">
           </div>
         </div>
@@ -335,5 +337,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
      <script src="script.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/67060e7f02d78d1a30ee891a/1i9nqh939';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
   </body>
 </html>
