@@ -16,6 +16,12 @@ html,body{
 
 body{
     scroll-behavior: smooth;
+ 
+
+
+ 
+
+ 
 }
 
 a{
@@ -144,6 +150,21 @@ h4{
 .s-icon:hover i{
     font-size: 60px;
   
+}
+.hero-right mask-target{
+    overflow: hidden;
+}
+.rotate{
+
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* hero css end */
