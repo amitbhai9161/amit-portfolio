@@ -153,10 +153,15 @@ h4{
 }
 .hero-right mask-target{
     overflow: hidden;
+  
 }
 .rotate{
 
-    animation: rotate 5s linear infinite;
+    animation: rotate 7s linear infinite;
+
+   
+
+  
 }
 @keyframes rotate {
     from {

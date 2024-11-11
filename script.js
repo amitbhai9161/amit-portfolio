@@ -57,3 +57,14 @@ Shery.mouseFollower({
     debug: true,
     gooey: true,
   });
+
+
+   // Get the image and audio elements
+   //const playButton = document.getElementById('playButton');
+   //const audioPlayer = document.getElementById('audioPlayer');
+
+   // Add click event listener to the image
+   //playButton.addEventListener('click', function() {
+       // Play the audio
+     //  audioPlayer.play();
+ //  });//
