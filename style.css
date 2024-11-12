@@ -304,8 +304,8 @@ h4{
 /* My Project section start */
 
 .my-project{
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 245, 241);
 }
 
 
@@ -359,8 +359,14 @@ h4{
     font-size: 45px;
 }
 
+.project-text i{
+    color: blue;
+}
 .project-text i:hover{
     cursor: pointer;
+    color: aqua;
+    
+    
 }
 
 
