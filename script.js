@@ -59,6 +59,7 @@ Shery.mouseFollower({
   });
 
 
+  
    // Get the image and audio elements
    //const playButton = document.getElementById('playButton');
    //const audioPlayer = document.getElementById('audioPlayer');
